@@ -1,2 +1,14 @@
 # Basics-of-Programming-Java-Programming---Syntax-Input-Output---In-Class
-print input
+//print input
+import java.io.*; // for handling input/output
+import java.util.*; // contains Collections framework
+
+// don't change the name of this class
+// you can add inner classes if needed
+class Main {
+	public static void main (String[] args) {
+                    Scanner sc = new Scanner(System.in);
+                    int a = sc.nextInt();
+                    System.out.println(a);
+	}
+}
